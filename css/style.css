@@ -1,0 +1,76 @@
+/*
+ * /ᐠ｡ꞈ｡ᐟ\
+ *
+ * Smile to this nice css
+ *
+ * /ᐠ｡ꞈ｡ᐟ\
+ */
+
+
+@font-face {
+    font-family: "AmaticBold";
+    src: url(../fonts/amatic/Amatic-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Amatic";
+    src: url(../fonts/amatic/AmaticSC-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Amatic";
+}
+
+p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.parallax-container {
+    min-height: 70vh;
+    line-height: 0;
+    height: auto;
+    color: whitesmoke;
+}
+    .parallax-container section {
+        width: 100%;
+        position: absolute;
+        top:35%;
+    }
+
+#tryit{
+    font-family: "Roboto";
+}
+
+.border-beige {
+    border: 1px solid;
+    border-color: antiquewhite;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container section {
+        position: absolute;
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner section {
+    top: 20%;
+  }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
